@@ -47,6 +47,17 @@ table {
 }
 /*
   ========================================
+  Custom Styles
+  ========================================
+*/
+body {
+  
+  background: #293f50;
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*
+  ========================================
   Grid
   ========================================
 */
@@ -56,4 +67,102 @@ table {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+.grid,
+.col-1-3,
+.col-2-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-1-3,
+.col-2-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+.col-1-3 {
+  width: 33.33%
+}
+.col-2-3 {
+  width: 66.66%;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+/*
+  ========================================
+  Rows
+  ========================================
+*/
+.row {
+  min-width: 960px;
+  background: #fff;
+  padding: 66px 0 44px 0;
+}
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+h1 {
+  color: #648880;
+  margin-bottom: 22px;
+  font-size: 36px;
+  line-height: 44px;
+}
+h3 {
+  color: #648880;
+  margin-bottom: 22px;
+  font-size: 24px;
+}
+p {
+  margin-bottom: 22px;
+}
+/*
+  ========================================
+  Links
+  ========================================
+*/
+a {
+  color: #648880;
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9;
+}
+/*
+  ========================================
+  Bio
+  ========================================
+*/
+.info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+.info img {
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
 }
