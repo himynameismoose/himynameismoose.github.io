@@ -166,3 +166,25 @@ a:hover {
   margin: -66px 0 22px 0;
   vertical-align: top;
 }
+.employment {
+  padding: 22px;
+}
+.emp-info {
+  padding: 10px;
+}
+.date {
+  font-style: none;
+  float: right;
+}
+.job-pos {
+  font-style: italic;
+}
+.job-info {
+  padding-left: 2rem;
+}
+.job-info li {
+  list-style-type: circle;
+}
+.achievements {
+  width: 650px;
+}
